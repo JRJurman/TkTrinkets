@@ -8,7 +8,7 @@ rec = {}
 rec["id"] = can.create_rectangle(25, 25, 75, 75, fill="green")
 rec["pos"] = 0
 
-def moveRec(rec):
+def moveRec():
     rec["pos"] = (rec["pos"] + 1) % 40
     if (rec["pos"] < 10):
         can.move(rec["id"], 10, 0)
