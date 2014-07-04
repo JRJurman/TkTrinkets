@@ -20,7 +20,7 @@ def moveRec():
         can.move(rec["id"], 0, -10)
 
 def timerFired():
-    moveRec(rec)
+    moveRec()
     can.after(50, timerFired)
 
 if __name__ == '__main__':

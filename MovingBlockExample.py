@@ -44,6 +44,6 @@ def timerFired():
 	can.after(100, timerFired)
 
 if __name__ == '__main__':
-	timerFired(100)
+	timerFired()
 	win.mainloop()
 	
